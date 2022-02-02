@@ -19,6 +19,7 @@ const useStyles = makeStyles(() => ({
     color: "gold",
     fontFamily: "Montserrat",
     fontWeight: "bold",
+    fontSize: 40,
     cursor: "pointer",
   },
 }));
@@ -44,7 +45,7 @@ const Header = () => {
         <Container>
           <Toolbar>
             <Typography onClick={() => navigate("/")} className={classes.title}>
-              Crypto - Hunter
+              CryptoHunter
             </Typography>
 
             <Select
